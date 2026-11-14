@@ -1,0 +1,26 @@
+1. create a repository on GitHub
+
+2. open gitbash/terminl <code .>
+
+3. open terminal of vs code
+
+4. select bash terminal
+
+5. Initialize and install git
+   *git --version
+   *git init
+
+6. set global configuration
+   *git config --global --list < to check the configurations>
+   *git config --global user.name "username" <stets the user-name>
+   *git config --global user.email "mail-id"  <sets the users-email>
+
+7. git add . <adds the file name>
+
+8. git commit -m "msg" <commit fil with msg>
+
+9. git remote add origin <URL>
+
+10. git remote -v <to check origin add or not>
+
+11. git push -u origin master(branch name) <-u contains the url link of git repo> 
