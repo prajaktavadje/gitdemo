@@ -1,0 +1,64 @@
+# Git .gitignore Commands and Patterns
+
+## 1. Common .gitignore Patterns
+
+1. `*.log` – Ignore all log files.
+2. `*.tmp` – Ignore all temporary files.
+3. `*.txt` – Ignore all text files.
+4. `*.pdf` – Ignore all PDF files.
+5. `*.png` – Ignore all PNG images.
+6. `*.jpg` – Ignore all JPG images.
+7. `node_modules/` – Ignore the node_modules folder.
+8. `.env` – Ignore the .env file.
+9. `secret.env` – Ignore a specific file.
+10. `dist/` – Ignore the dist folder.
+11. `build/` – Ignore the build folder.
+12. `__pycache__/` – Ignore Python cache folders.
+13. `*.pyc` – Ignore Python compiled files.
+14. `.DS_Store` – Ignore macOS system files.
+15. `.vscode/` – Ignore VS Code settings folder.
+16. `/test.txt` – Ignore test.txt only in the root directory.
+17. `logs/` – Ignore folders named logs.
+18. `**/temp/` – Ignore temp folders at any directory level.
+19. `!important.log` – Do not ignore important.log, even if *.log is ignored.
+20. `folder/*.txt` – Ignore text files directly inside the folder.
+
+## 2. Commands Related to .gitignore
+
+1. `touch .gitignore` – Create a .gitignore file (Git Bash).
+2. `nano .gitignore` – Open and edit the file using Nano.
+3. `cat .gitignore` – Display the contents of .gitignore.
+4. `git status` – Check which files Git is tracking or ignoring.
+5. `git check-ignore filename` – Check whether a file is ignored.
+6. `git check-ignore -v filename` – Show which .gitignore rule ignores the file.
+7. `git rm --cached filename` – Stop tracking a file but keep it on your computer.
+8. `git add .gitignore` – Stage the .gitignore file.
+9. `git commit -m "Add gitignore rules"` – Commit the changes.
+
+## 3. Important Notes
+
+- .gitignore ignores untracked files.
+- It does not automatically stop tracking files already committed.
+- Use `git rm --cached filename` to stop tracking an already tracked file.
+- Never push passwords, API keys, or secret credentials to GitHub.
+
+## 4. Example .gitignore File
+
+*.log
+*.tmp
+node_modules/
+.env
+secret.env
+dist/
+build/
+__pycache__/
+*.pyc
+.vscode/
+
+## 5. Test Your .gitignore
+
+1. Create a file named secret.env.
+2. Add `secret.env` inside .gitignore.
+3. Run `git status`.
+4. The untracked secret.env file should not appear in the normal status output.
+5. Run `git check-ignore -v secret.env` to see the matching rule.
