@@ -1,0 +1,57 @@
+# GIT BRANCHING COMMANDS
+
+1. git branch
+   - Lists all local branches.
+
+2. git branch -a
+   - Lists all local and remote branches.
+
+3. git branch branch-name
+   - Creates a new branch.
+
+4. git checkout branch-name
+   - Switches to an existing branch.
+
+5. git checkout -b branch-name
+   - Creates a new branch and switches to it.
+
+6. git switch branch-name
+   - Switches to another branch.
+
+7. git switch -c branch-name
+   - Creates and switches to a new branch.
+
+8. git branch -d branch-name
+   - Deletes a merged branch.
+
+9. git branch -D branch-name
+   - Force deletes a branch.
+
+10. git merge branch-name
+    - Merges another branch into the current branch.
+
+11. git branch -m new-name
+    - Renames the current branch.
+
+12. git push -u origin branch-name
+    - Pushes a new branch to GitHub and sets upstream tracking.
+
+13. git push origin --delete branch-name
+    - Deletes a remote branch from GitHub.
+
+14. git branch -r
+    - Lists remote-tracking branches.
+
+15. git switch -
+    - Switches back to the previously checked-out branch.
+
+# BASIC BRANCHING WORKFLOW
+
+1. git branch
+2. git checkout -b feature
+3. git add .
+4. git commit -m "Add feature"
+5. git push -u origin feature
+6. git checkout main
+7. git merge feature
+8. git push origin main
