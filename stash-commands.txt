@@ -1,0 +1,31 @@
+# Git Stash Commands and Their Meanings
+
+Git stash is used to temporarily save changes without committing them.
+
+1. `git stash` – Temporarily saves tracked file changes.
+2. `git stash -u` – Saves changes, including untracked files.
+3. `git stash list` – Displays all saved stashes.
+4. `git stash show` – Shows a summary of the latest stash.
+5. `git stash show -p` – Shows the detailed changes inside a stash.
+6. `git stash apply` – Restores the latest stash but keeps it in the stash list.
+7. `git stash pop` – Restores the latest stash and removes it from the stash list.
+8. `git stash apply stash@{1}` – Applies a specific stash.
+9. `git stash pop stash@{1}` – Applies and removes a specific stash.
+10. `git stash drop` – Deletes the latest stash.
+11. `git stash drop stash@{1}` – Deletes a specific stash.
+12. `git stash clear` – Deletes all saved stashes.
+13. `git stash push -m "message"` – Saves changes with a custom message.
+14. `git stash branch new-branch` – Creates a new branch from a stash and applies its changes.
+
+## Example Workflow
+
+1. Make changes to your files.
+2. Run `git stash` to save the changes.
+3. Run `git stash list` to check saved stashes.
+4. Run `git stash pop` to restore the changes.
+
+**Remember:**
+- `apply` = Restore changes, keep the stash.
+- `pop` = Restore changes, remove the stash.
+- `drop` = Delete one stash.
+- `clear` = Delete all stashes.
