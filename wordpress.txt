@@ -1,0 +1,51 @@
+wget--jya velas mala kahi website madhun download karaicha ahe teva me wget vaparnar
+scp--jya velas linux cha machine madhun download karaicha asel teva scp vaparnar
+
+wordpress is a library of php
+WordPress is a free, open-source content management system (CMS) that allows you to create and manage 
+websites easily — without needing to code from scratch.
+
+ Key Features:
+User-Friendly: You can build websites using themes and plugins.
+
+Customizable: Thousands of free & premium themes and plugins to extend functionality.
+
+Flexible: Supports blogs, business websites, e-commerce (with WooCommerce), portfolios, and more.
+
+SEO-Friendly: Built with clean permalink structures, sitemaps, and plugin support for SEO.
+
+Community Support: Huge global community and extensive documentation.
+
+🛠️ Tech Stack:
+Written in PHP
+
+Uses a MySQL or MariaDB database
+
+Works with Apache or Nginx web servers
+
+Often deployed in LEMP or LAMP stacks
+
+✅ Examples of What You Can Build:
+Blogs
+
+Company websites
+
+Online stores (eCommerce)
+
+News/magazine portals
+
+Portfolio websites
+
+
+
+
+
+we will use lemp for wordpress
+
+
+
+rds secyrity
+1.encryption
+2.vpc
+3.pointing time
+4.s
