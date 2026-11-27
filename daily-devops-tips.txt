@@ -1,0 +1,23 @@
+
+My Daily DevOps Notes
+
+Day 1: Linux
+Linux is an open-source operating system.
+Common commands: ls, pwd, cd, mkdir, rm.
+
+Day 2: Git
+Git is a version control system.
+Common commands: git status, git add, git commit.
+
+Day 3: AWS
+AWS provides cloud services.
+EC2 is used to launch virtual servers.
+
+Day 4: Docker
+Docker is used to create and run containers.
+
+Day 5: Jenkins
+Jenkins is an automation tool used for CI/CD.
+
+My Goal:
+Learn something new every day and improve my DevOps skills.
